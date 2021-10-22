@@ -1,10 +1,27 @@
-// Your First C++ Program
+#include<iostream>    
 
-#include <iostream>
+using namespace std;
 
-int main() {
-    std::cout << "Hello World!";
-    return 0;
-}
+int main(){
+
+    int a,b,c;
+    cout<<"enter the value of a:"<<endl;
+    cin>>a;
+
+    cout<<"enter the vaue of b:"<<endl;
+    cin>>b;
+
+    c= a + b;
+
+    cout<<"the sum is"<<c;
+
+} 
+
+
+
+
+
+
+
 
 
